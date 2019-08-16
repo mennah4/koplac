@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="koplac.vyskovnice.activities.ChangeUserName"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    style="@style/layouts">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/currentname"
+        android:drawableLeft="@drawable/ic_user"
+        style="@style/editTexts"/>
+    <EditText
+        android:id="@+id/etNewName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_user"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/newName"
+        style="@style/editTexts"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/btnChangeUserName"
+
+        android:text="@string/changeUserName"
+        style="@style/buttons"/>
+
+</LinearLayout>

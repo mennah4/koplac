@@ -1,0 +1,30 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="koplac.vyskovnice.activities.TracksActivity"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    style="@style/layouts">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:id="@+id/lvTracks"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/noTracks"
+        android:gravity="center"
+        android:layout_gravity="center"
+
+        android:text="@string/noCurrentTracks"
+        android:textSize="25sp"
+        android:singleLine="false"
+        android:textStyle="bold"
+        style="@style/textViews"/>
+
+</FrameLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="koplac.vyskovnice.activities.WriteComment"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    style="@style/layoutsWithoutGravity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/bookOf"
+
+            android:textSize="15sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/tvWriteCommentPeakName"
+            android:gravity="center_horizontal"
+
+            android:text="@string/peakName"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            style="@style/textViews"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@string/instructions"
+
+        style="@style/tvParameterName"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@string/rateTheBookStatus"
+
+        style="@style/tvParameterValue"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@string/onlyOneCommentPerPerson"
+
+        style="@style/tvParameterValue"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@string/writeWhatYouWantButDontBeRude"
+
+        style="@style/tvParameterValue"/>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/ratingBar"
+        android:numStars="6"
+        android:stepSize="1.0"
+        android:rating="3" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/comment"
+        android:layout_weight="1"
+        android:gravity="start"
+
+        style="@style/editTexts"
+        android:text=""/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/sendbutton"
+        android:onClick="send"
+        android:layout_marginLeft="5dp"
+
+        android:text="@string/sendRatingAndComment"
+        style="@style/buttons"/>
+
+</LinearLayout>

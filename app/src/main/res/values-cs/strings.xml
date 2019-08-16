@@ -1,0 +1,248 @@
+﻿<resources>
+
+    <!-- General -->
+    <string name="app_name">Výškovnice</string>
+    <string name="action_settings">Nastavení</string>
+    <string name="peakInfo">Informace o vrcholu</string>
+    <string name="peaks">Vrcholy</string>
+    <string name="myPeakHistory">Moje zdolané vrcholy</string>
+    <string name="siteReached">Zdolal jsi vrchol!</string>
+    <string name="commentsOfTheBook">Virtuální vrcholová kniha</string>
+    <string name="leftYourComment">Zanech vrcholový vzkaz</string>
+    <string name="unreadBooksPending">Nepřečtené knihy</string>
+    <string name="sure">Fakt to chceš?</string>
+    <string name="loading">Nahrávám...</string>
+    <string name="notloged">Nejsi zaregistrovaný</string>
+    <string name="notLogedIn">Nejsi přihlášený</string>
+    <string-array name="mainMenu">
+        <item>Přezdívka</item>
+        <item>Vrcholy a knihy</item>
+        <item>Pořadí Vrcholezců</item>
+        <item>Sdílej</item>
+        <item>O Výškovnici</item>
+    </string-array>
+    <string name="makeSureYouHaveInternetConnectionAndTryAgain">Připoj se k internetu a zkus to znovu</string>
+
+    <!-- Only for testing -->
+    <string name="reachKoplac">To reach Koplac</string>
+    <string name="reachSvobodyNamesti">To reach Svobody Namesti</string>
+    <string name="reachPetrov">To reach Petrov</string>
+    <string name="reachSpilberk">To reach Spilberk</string>
+    <string name="reachCheckPointTest1">To reach test cp 1</string>
+    <string name="reachCheckPointTest2">To reach test cp 2</string>
+    <string name="reachCheckPointTest3">To reach test cp 3</string>
+    <string name="reachCheckPointTest4">To reach test cp 4</string>
+    <string name="reachCheckPointTest5">To reach test cp 5</string>
+    <string name="reachCheckPointTest6">To reach test cp 6</string>
+    <!-- End of Only for testing -->
+
+    <!-- Map -->
+    <string name="drawRoute">Ukaž trasu</string>
+    <string name="peakDetails">Detaily</string>
+    <string name="gps_disabled">Máš vypnuté GPS, chcěš ho zapnout?</string>
+    <string name="gps_settings">Nastavení GPS</string>
+    <string name="gps_cancel">Zrušit</string>
+    <string name="noneTrackSelected">Není vybraná žádná trasa</string>
+
+    <!-- Main -->
+    <string name="centerCurrentPosition">Ukaž mou pozici na mapě</string>
+    <string name="areYouSureYouWantToExit">Opravdu mě chceš vypnout?</string>
+    <string name="exit">Vypnout</string>
+
+    <!-- Log in screen -->
+    <string name="nickname">Přezdívka</string>
+    <string name="password">heslo</string>
+    <string name="login">Přihlásit</string>
+    <string name="notAMemberYet">Už jsi registrovaný?</string>
+    <string name="signin">Registovat</string>
+    <string name="logInSuccessfull">Přihlášení úspěšné</string>
+    <string name="welcome">Vítej</string>
+    <string name="loggingUser">Přihlašování...</string>
+    <string name="nicknameAndOrPasswordIncorrect">Nepsávná přezdívka nebo heslo</string>
+
+    <!-- Sign in screen -->
+    <string name="repeatPassword">Heslo pro kontrolu</string>
+    <string name="email">E-mail</string>
+    <string name="chooseAvatar">Vyber si fotku</string>
+    <string name="uploadingAvatar">nahrávání fotky</string>
+    <string name="signingUser">Přihlašování</string>
+    <string name="validatingEmail">Ověřování e-mailu</string>
+    <string name="validatingNickname">Ověřování přezdívky</string>
+    <string name="fillNicknameField">Je nutné zadat přezdívku</string>
+    <string name="fillPasswordField">Je nutné zadat heslo</string>
+    <string name="fillPassword2Field">Je nutné zadat kontrolu hesla</string>
+    <string name="fillEmailField">je nutné zadat E-mail</string>
+    <string name="passwordsNotMatch">Kontrola hesla neodpovídá</string>
+    <string name="emailNotValid">Nespávně zadaný e-mail</string>
+    <string name="nicknameInUse">Přezdívka už je používána</string>
+    <string name="emailInUse">Email už je používaný</string>
+    <string name="signInSuccess">Přihlášení proběhlo úspěšně</string>
+    <string name="signInFailurePleaseTryLater">přihlášení selhalo, Zkus to později</string>
+
+    <!-- Profile screen -->
+    <string name="profile">Profil</string>
+    <string name="logOut">Odhlášení</string>
+    <string name="changeAvatar">Změnit fotku</string>
+    <string name="changePassword">Změnit heslo</string>
+    <string name="climbedPeaks">Zdolané vrcholy</string>
+    <string name="avatarChangedSuccessfully">Fotka úspěšně změněna</string>
+    <string name="avatarChangeFailure">Změna fotky selhala</string>
+    <string name="areYouSureYouWantToLogOut">Fakt se chceš odhlásit?</string>
+    <string name="yes">Ano</string>
+    <string name="no">Ne</string>
+    <string name="updatingAvatar">Nahrávání fotko</string>
+    <string name="profilePictureChangeSucceed">Fotka úspěšně změněna</string>
+    <string name="profilePictureChangeFailure">Změna fotky selhala</string>
+
+    <!-- ChangeUserName -->
+    <string name="newName">New User Name</string>
+    <string name="updatingNewUserName">Updating new username</string>
+    <string name="UserNameChangeSucceed">Username change successfully</string>
+    <string name="UserNameChangeFailure">Username change failure</string>
+    <string name="afterChangeNameSuccess">Úspěšný! Změny se projeví po restartování aplikace.</string>
+
+    <!-- ChangePassword -->
+    <string name="updatingNewPassword">Zadání nového hesla</string>
+    <string name="currentPassword">Současné heslo</string>
+    <string name="newPassword">Nové heslo</string>
+    <string name="repeatNewPassword">Nové heslo pro kontrolu</string>
+    <string name="fillCurrentPasswordField">Je nutné zadat současné heslo</string>
+    <string name="fillNewPasswordField">Je nutné zadat nové heslo</string>
+    <string name="fillNewPassword2Field">je nutné zadat nové heslo pro kontrolu</string>
+    <string name="currentPasswordWrong">Nesprávné současné heslo</string>
+    <string name="newPasswordsNotMatch">Kontrola hesla neodpovídá</string>
+    <string name="passwordChangeSucceed">Heslo úspěšně změněno</string>
+    <string name="passwordChangeFailure">Změna hesla selhala</string>
+
+    <!-- Peaks screen -->
+    <!-- Peak screen -->
+    <string name="longitude">Zeměpisná délka</string>
+    <string name="latitude">Zeměpisná šířka</string>
+    <string name="height">Výška</string>
+    <string name="distance">Vzdálenost</string>
+    <string name="mountains">Geomorfologické zařazení</string>
+    <string name="region">Okres</string>
+    <string name="plantsAnimals">Rostlinstvo &amp; živočišstvo</string>
+    <string name="reservation">Přírodní rezervace</string>
+    <string name="geology">Geologie</string>
+    <string name="springs">Prameniště</string>
+    <string name="hydrology">Hydrologie</string>
+    <string name="buildings">Stavby</string>
+    <string name="history">Historie</string>
+    <string name="access">Dostupnost</string>
+    <string name="attractions">Zajímavosti v okolí</string>
+    <string name="views">Zobrazení</string>
+    <string name="links">Odkazy</string>
+    <string name="notes">Poznámky</string>
+
+    <!-- UserPeaksActivity -->
+    <string name="retrievingUserClimbedPeaks">Načítání zdolaných vrcholů</string>
+
+    <!-- Site Reached screen -->
+    <string name="youCantSendAnEmptyComment">Nelze zadat prázdný vzkaz</string>
+    <string name="youHaveAlreadySentYoutComment">Vzkaz už byl zadán</string>
+    <string name="thanksForYourComment">Díky za vzkaz</string>
+    <string name="congratulations">Gratulujeme!</string>
+    <string name="youHaveReached">Zdolal jsi vrchol</string>
+    <string name="writeYourComment">Napiš vzkaz</string>
+    <string name="readOthersComment">Přešti si vzkazy ostatních</string>
+    <string name="bookOf">Kniha</string>
+    <string name="instructions">Rady:</string>
+    <string name="rateTheBookStatus">Zadej hodnocení</string>
+    <string name="onlyOneCommentPerPerson">Vzkaz můžeš zadávat jen jednou za den/výlet</string>
+    <string name="writeWhatYouWantButDontBeRude">Piš si co chceš, ale nebuď sprostý</string>
+    <string name="sendRatingAndComment">Odeslat vzkaz a hodnocení</string>
+    <string name="goBackToMap">Zpět na zobrazení mapy</string>
+    <string name="areYouSureYouWantToContinueWithoutLeftAComment">Opravdu chceš odejít bez napsání vzkazu?</string>
+
+    <!-- Ranking screen -->
+    <string name="ranking">Pořadí Vrcholezců</string>
+    <string name="mostproficients">Nejlepší vrcholezci</string>
+    <string name="mostclimbed">Nejoblíběnější vrcholy</string>
+    <string name="topBestClimbers">Nejlepší vrcholezci</string>
+    <string name="topClimbedPeaks">Nejoblíběnější vrcholy</string>
+    <string name="timesReached">Počet zdolání</string>
+    <string name="peaksReached">Zdolané vrcholy</string>
+    <string name="retrievingTopClimbers">Načítání nejlepších vrcholezců</string>
+    <string name="retrievingTopReachedPeaks">Načítání nejoblíbenějších vrcholů</string>
+
+    <string name="topBestRunners">Nejlepší chodci</string>
+    <string name="checkpoints">Kontrolní body</string>
+    <string name="lastReached">Poslední kontrola</string>
+    <string name="brnoStandard">základní trasa (B - bahno)</string>
+    <string name="brnoMedium">trasa Rh+</string>
+    <string name="brnoHigh">trasa Rh++</string>
+    <string name="retrievingTopRunnersBrnoStandard">Načítání nejlepších chodců</string>
+    <string name="retrievingTopRunnersBrnoMedium">Načítání nejlepších chodců</string>
+    <string name="retrievingTopRunnersBrnoHigh">Načítání nejlepších chodců</string>
+
+    <!-- Books screen -->
+    <string name="books">Knihy</string>
+    <string name="noUnreadBooksPending">Žádné nepřečtené knihy</string>
+
+    <!-- Read Comments screen -->
+    <string name="retrievingComments">Načítání vzkazů</string>
+
+    <!-- Tracks -->
+    <string name="tracks">Tracks</string>
+
+    <!-- CheckpointReached -->
+    <string name="youHaveReachedACheckPoint">Dosáhl jsi kontrolního bodu</string>
+    <string name="trackName">Název trasy</string>
+    <string name="waitForCheckIn">Probíhá kontrola</string>
+    <string name="checkInSucceed">Kontrola úspěšna, pokračuj v běhu</string>
+    <string name="checkInFailure">Kontrola selhala</string>
+    <string name="exitWithoutCheckIn">Odejít bez kontroly</string>
+    <string name="areYouSureYouWantToContinueWithoutCheckInThisPoint">Fakt chceš zdrhnout bez kontroly?</string>
+    <string name="internetConnectionNeededIfYouWantToRecordCheckpointsTracks">Musíš bys připojen k internetu, pokud chceš našíst trasy</string>
+    <!-- GoalReached -->
+    <string name="completed">Vyhrál jsi!</string>
+    <string name="youHaveReachedTheGoal">Urazil jsi 100km a jsi v cíli</string>
+
+    <!-- Dont know where it is used -->
+    <string name="accept">Přijmout</string>
+    <string name="menu">Menu</string>
+    <string name="logIn">Přihlášení</string>
+    <string name="signIn">Registrace</string>
+    <string name="peakName">Název vrcholu</string>
+    <string name="nameOfThePeak">Název vrcholu</string>
+    <string name="mainMenu">Hlavní menu</string>
+    <string name="peakPicture">Obrázek vrcholu</string>
+    <string name="number">Nº</string>
+    <string name="date">Datum</string>
+    <string name="commentContent">Obsah vzkazu</string>
+    <string name="noInternet">Není připojení k internetu</string>
+    <string name="pointOnMap">Ukaž na mapě</string>
+    <string name="reachedTimes">Počet zdolání</string>
+    <string name="proceed">Pokračovat</string>
+    <string name="back">Zpět</string>
+    <string name="chooseroute">Vyber trasu</string>
+    <string name="areYouSureYouWantToChooseThisRoute">Opravdu chceš jít touto trasou?</string>
+    <string name="eraseTrack">Vymazat trasu</string>
+    <string name="eraseRoute">Vymazat trasu</string>
+    <string name="CheckPoint">Kontrolní bod</string>
+    <string name="noCurrentTracks">nejsou k dispozici žádné trasy</string>
+
+    <!-- about vyskovnice-->
+    <string name="large_text">
+        "   <b>Co je aplikace Výškovnice?</b>\n\n"
+        "   Skvělý způsob objevování okolí pomocí matematicky určené množiny vrcholů mezi dvěma danými místy v určité oblasti.\n\n"
+
+        "<b>Z čeho se Výškovnice skládá?</b> \n\n
+        • 31 hlavních vrcholů, které jsou nejvyššími ve svém okolí\n
+        • 19 vedlejších vrcholů\n
+        • 31 fyzických vrcholových knih umístěných na hlavních vrcholech nebo v jejich blízkosti.\n"
+
+        "<b>Jak aplikace funguje?</b>\n\n
+        "    V základu je Výškovnice pouze množinou vrcholů. Cílem je postupně vrcholy sesbírat bez jakéhokoliv časového limitu. Sbírat vrcholy můžete na 3 herních úrovních:\n\n
+            <b>• BASIC</b> - Sbíráte pouze názvy a hesla vrcholových knih a k tomu i elektronické potvrzení. Stačí pouze na místě vrcholové knihy použít aplikaci.\n\n
+            <b>• STANDARD</b> – Vrcholové knihy často nejsou umístěny přímo na vrcholu. Pro jeho dosažení musíte ještě pár kroků udělat. Hry na této úrovni se účastníte, pokud kromě knih navštívíte navíc všechny příslušné vrcholy.\n\n
+            <b>• HARD CORE</b> – Některé skupiny vrcholů obsahují kromě hlavního ještě jeden až dva vedlejší. Ti, kteří posbírají i všechny vedlejší vrcholy, mohou být právem označeni jako Brněnští Hard Core Vrcholezci!\n\n\n"
+
+
+    </string>
+    <string name="last_summit">Poslední summit:</string>
+    <string name="search">Vyhledávání vrcholy nebo knihy</string>
+    <string name="your_comment">Tvůj komentář :</string>
+    <!--<string name="openMenu">Otevři menu</string>-->
+</resources>

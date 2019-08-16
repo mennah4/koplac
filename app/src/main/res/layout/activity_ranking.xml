@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ViewFlipper
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="koplac.vyskovnice.activities.Ranking"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    style="@style/layoutsWithoutGravity"
+
+    android:id="@+id/vfRankings">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:id="@+id/lyTopUsers"
+        android:padding="5dp"
+
+        android:orientation="vertical"
+        android:background="#ff1aa187">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+
+                android:src="@drawable/ic_arrow_left"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+
+                android:src="@drawable/ic_arrow_right"/>
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:gravity="center"
+
+            android:text="@string/topBestClimbers"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            style="@style/textViews"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="left"
+
+                android:text="@string/number"
+                android:textSize="14sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="left"
+                android:layout_marginLeft="35dp"
+
+                android:text="@string/nickname"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="right"
+
+                android:text="@string/peaksReached"
+                android:textSize="14sp"/>
+
+        </FrameLayout>
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/lvTopUsers"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:id="@+id/lyTopPeaks"
+        android:padding="5dp"
+        android:gravity="center_horizontal"
+
+        android:orientation="vertical"
+        android:background="#ff1aa187">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+
+                android:src="@drawable/ic_arrow_left"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+
+                android:src="@drawable/ic_arrow_right"/>
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/topClimbedPeaks"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            style="@style/textViews"/>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_gravity="left"
+
+                android:text="@string/number"
+                android:textSize="14sp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="left"
+                android:layout_marginLeft="35dp"
+
+                android:text="@string/peakName"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="right"
+
+                android:text="@string/timesReached"
+                android:textSize="14sp"/>
+
+        </FrameLayout>
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/lvTopPeaks"/>
+    </LinearLayout>
+</ViewFlipper>

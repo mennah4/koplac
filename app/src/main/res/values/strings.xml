@@ -1,0 +1,280 @@
+﻿<resources>
+    <!-- For Facebook -->
+    <string name="facebook_app_id">247708035715620</string>
+    <string name="fb_login_protocol_scheme">fb247708035715620</string>
+    <string name="please_wait_facebooklogin">Please wait</string>
+
+
+    <!-- menu -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <!-- General -->
+    <string name="app_name">Výškovnice</string>
+    <string name="action_settings">Settings</string>
+    <string name="peakInfo">Info of the Peak</string>
+    <string name="peaks">Peaks and Books</string>
+    <string name="myPeakHistory">My peak history</string>
+    <string name="siteReached">Site Reached</string>
+    <string name="commentsOfTheBook">Comments of the Book</string>
+    <string name="leftYourComment">Left your comment</string>
+    <string name="unreadBooksPending">Unread books pending</string>
+    <string name="sure">Are you sure?</string>
+    <string name="loading">Loading...</string>
+    <string name="notloged">You are not signed in?</string>
+    <string name="notLogedIn">You are not logged in</string>
+    <string-array name="mainMenu">
+        <item>Login</item>
+        <item>Peaks and Books</item>
+        <item>Ranking</item>
+        <item>SHARE</item>
+        <item>About the Výškovnice</item>
+    </string-array>
+    <string name="makeSureYouHaveInternetConnectionAndTryAgain">Make sure you have internet connection and try again</string>
+
+    <!-- Only for testing -->
+    <string name="reachKoplac">To reach Koplac</string>
+    <string name="reachSvobodyNamesti">To reach Svobody Namesti</string>
+    <string name="reachPetrov">To reach Petrov</string>
+    <string name="reachSpilberk">To reach Spilberk</string>
+    <string name="reachCheckPointTest1">To reach test cp 1</string>
+    <string name="reachCheckPointTest2">To reach test cp 2</string>
+    <string name="reachCheckPointTest3">To reach test cp 3</string>
+    <string name="reachCheckPointTest4">To reach test cp 4</string>
+    <string name="reachCheckPointTest5">To reach test cp 5</string>
+    <string name="reachCheckPointTest6">To reach test cp 6</string>
+    <!-- End of Only for testing -->
+
+    <!-- Map -->
+    <string name="drawRoute">Show route</string>
+    <string name="peakDetails">Details</string>
+    <string name="gps_disabled">GPS is disabled in your device. Would you like to enable it?</string>
+    <string name="gps_settings">Goto Settings Page To Enable GPS</string>
+    <string name="gps_cancel">Cancel</string>
+    <string name="noneTrackSelected">None track selected</string>
+
+    <!-- Main -->
+    <string name="centerCurrentPosition">Center my current position</string>
+    <string name="areYouSureYouWantToExit">Are you sure you want to exit?</string>
+    <string name="exit">Exit</string>
+
+    <!-- Log in screen -->
+    <string name="nickname">Nickname</string>
+    <string name="password">Password</string>
+    <string name="login">Log in</string>
+    <string name="notAMemberYet">Not a member yet?</string>
+    <string name="signin">Sign in</string>
+    <string name="logInSuccessfull">Log in successfully</string>
+    <string name="welcome">Welcome</string>
+    <string name="loggingUser">Logging user</string>
+    <string name="nicknameAndOrPasswordIncorrect">Nickname and/or password incorrect</string>
+
+    <!-- Sign in screen -->
+    <string name="repeatPassword">Repeat password</string>
+    <string name="email">E-mail</string>
+    <string name="chooseAvatar">Choose avatar</string>
+    <string name="uploadingAvatar">Uploading avatar</string>
+    <string name="signingUser">Signing user</string>
+    <string name="validatingEmail">Validating e-mail</string>
+    <string name="validatingNickname">Validating nickname</string>
+    <string name="fillNicknameField">Nickname field is required</string>
+    <string name="fillPasswordField">Password field is required</string>
+    <string name="fillPassword2Field">Password checker is required</string>
+    <string name="fillEmailField">Email field is required</string>
+    <string name="passwordsNotMatch">Passwords not match</string>
+    <string name="emailNotValid">Email not valid</string>
+    <string name="nicknameInUse">Nickname is already used</string>
+    <string name="emailInUse">Email is already used</string>
+    <string name="signInSuccess">Successful sign in</string>
+    <string name="signInFailurePleaseTryLater">Sign in failure. Please try later</string>
+
+    <!-- Profile screen -->
+    <string name="profile">Profile</string>
+    <string name="logOut">Log out</string>
+    <string name="changeUserName">Change User Name</string>
+    <string name="changeAvatar">Change Avatar</string>
+    <string name="changePassword">Change password</string>
+    <string name="climbedPeaks">Climbed peaks</string>
+    <string name="avatarChangedSuccessfully">Avatar changed successfully</string>
+    <string name="avatarChangeFailure">Avatar change failure</string>
+    <string name="areYouSureYouWantToLogOut">Are you sure you want to log out?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+    <string name="updatingAvatar">Updating avatar</string>
+    <string name="profilePictureChangeSucceed">Avatar change successfully</string>
+    <string name="profilePictureChangeFailure">Avatar change failure</string>
+
+    <!-- ChangeUserName -->
+    <string name="newName">New User Name</string>
+    <string name="updatingNewUserName">Updating new user name</string>
+    <string name="UserNameChangeSucceed">Username change successfully</string>
+    <string name="UserNameChangeFailure">Username change failure</string>
+    <string name="afterChangeNameSuccess">Successful! The changes will take effect after you re-login.</string>
+
+    <!-- ChangePassword -->
+    <string name="updatingNewPassword">Updating new password</string>
+    <string name="currentPassword">Current password</string>
+    <string name="newPassword">New password</string>
+    <string name="repeatNewPassword">Repeat new password</string>
+    <string name="fillCurrentPasswordField">Current password field is required</string>
+    <string name="fillNewPasswordField">New password field is required</string>
+    <string name="fillNewPassword2Field">New password checker is required</string>
+    <string name="currentPasswordWrong">Current password not valid</string>
+    <string name="currentNameWrong">Current user name is same as well as new nick name</string>
+    <string name="newPasswordsNotMatch">New passwords not match</string>
+    <string name="passwordChangeSucceed">Password change successfully</string>
+    <string name="passwordChangeFailure">Password change failure</string>
+
+    <!-- Peaks screen -->
+    <string name="search">Search peaks or books</string>
+    <!-- Peak screen -->
+    <string name="longitude">Longitude</string>
+    <string name="latitude">Latitude</string>
+    <string name="height">Height</string>
+    <string name="distance">Distance</string>
+    <string name="mountains">Mountains</string>
+    <string name="region">Region</string>
+    <string name="plantsAnimals">Plants &amp; Animals</string>
+    <string name="reservation">Reservation</string>
+    <string name="geology">Geology</string>
+    <string name="springs">Springs</string>
+    <string name="hydrology">Hidrology</string>
+    <string name="buildings">Buildings</string>
+    <string name="history">History</string>
+    <string name="access">Access</string>
+    <string name="attractions">Attractions</string>
+    <string name="views">Views</string>
+    <string name="links">Links</string>
+    <string name="notes">Notes</string>
+
+    <!-- UserPeaksActivity -->
+    <string name="retrievingUserClimbedPeaks">Retrieving user climbed peaks</string>
+
+    <!-- Site Reached screen -->
+    <string name="youCantSendAnEmptyComment">You cant send an empty comment</string>
+    <string name="youHaveAlreadySentYoutComment">You have already sent your comment</string>
+    <string name="thanksForYourComment">Thanks for your comment</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="youHaveReached">You have reached</string>
+    <string name="writeYourComment">Write your own comment</string>
+    <string name="readOthersComment">Read others comments</string>
+    <string name="bookOf">Book of</string>
+    <string name="instructions">Instructions:</string>
+    <string name="rateTheBookStatus">Rate the book status</string>
+    <string name="onlyOneCommentPerPerson">Only one comment per person/day/trip</string>
+    <string name="writeWhatYouWantButDontBeRude">Write what you want but dont be rude</string>
+    <string name="sendRatingAndComment">Send rating and comment</string>
+    <string name="goBackToMap">Go back to map</string>
+    <string name="areYouSureYouWantToContinueWithoutLeftAComment">Are you sure you want to go back without left your comment?</string>
+
+    <!-- Ranking screen -->
+    <string name="ranking">Ranking</string>
+    <string name="mostproficients">Most Proficient climbers</string>
+    <string name="mostclimbed">Most climbed peaks</string>
+    <string name="topBestClimbers">Top Best climbers</string>
+    <string name="topClimbedPeaks">Top Climbed peaks</string>
+    <string name="timesReached">Times reached</string>
+    <string name="peaksReached">Peaks reached</string>
+    <string name="retrievingTopClimbers">Retrieving Top Climbers</string>
+    <string name="retrievingTopReachedPeaks">Retrieving Top Reached Peaks</string>
+
+    <string name="topBestRunners">Top Best Runners</string>
+    <string name="checkpoints">Checkpoints</string>
+    <string name="lastReached">Last reached</string>
+    <string name="brnoStandard">Brno standard</string>
+    <string name="brnoMedium">Brno medium</string>
+    <string name="brnoHigh">Brno High</string>
+    <string name="retrievingTopRunnersBrnoStandard">Retrieving Top Runners Brno Standard</string>
+    <string name="retrievingTopRunnersBrnoMedium">Retrieving Top Runners Brno Medium</string>
+    <string name="retrievingTopRunnersBrnoHigh">Retrieving Top Runners Brno High</string>
+
+    <!-- Books screen -->
+    <string name="books">Books</string>
+    <string name="noUnreadBooksPending">No unread books pending</string>
+
+    <!-- Read Comments screen -->
+    <string name="retrievingComments">Retrieving comments</string>
+
+    <!-- Tracks -->
+    <string name="tracks">Tracks</string>
+
+    <!-- CheckpointReached -->
+    <string name="youHaveReachedACheckPoint">You have reached a checkpoint</string>
+    <string name="trackName">Track Name</string>
+    <string name="waitForCheckIn">Wait for check in</string>
+    <string name="checkInSucceed">Check in successfully</string>
+    <string name="checkInFailure">Check in failure</string>
+    <string name="exitWithoutCheckIn">Exit without check in</string>
+    <string name="areYouSureYouWantToContinueWithoutCheckInThisPoint">Are you sure you want to continue without check this point?</string>
+    <string name="internetConnectionNeededIfYouWantToRecordCheckpointsTracks">You need internet connection if you want to record checkpoints tracks</string>
+    <!-- GoalReached -->
+    <string name="completed">COMPLETED!</string>
+    <string name="youHaveReachedTheGoal">You have reached the finish line</string>
+
+    <!-- Dont know where it is used -->
+    <string name="accept">Accept</string>
+    <string name="menu">Menu</string>
+    <string name="logIn">Log in</string>
+    <string name="signIn">Sign in</string>
+    <string name="peakName">Peak name</string>
+    <string name="nameOfThePeak">Name of the Peak</string>
+    <string name="mainMenu">Main menu</string>
+    <string name="peakPicture">Picture of the Peak</string>
+    <string name="number">Nº</string>
+    <string name="date">Date</string>
+    <string name="commentContent">Comment content</string>
+    <string name="noInternet">No internet connection</string>
+    <string name="pointOnMap">Point on map</string>
+    <string name="reachedTimes">Reached times</string>
+    <string name="proceed">Proceed</string>
+    <string name="back">Back</string>
+    <string name="chooseroute">Choose Route</string>
+    <string name="areYouSureYouWantToChooseThisRoute">Are you sure you want to choose this route?</string>
+    <string name="eraseTrack">Erase Track</string>
+    <string name="eraseRoute">Erase route</string>
+    <string name="CheckPoint">CheckPoint</string>
+    <string name="noCurrentTracks">There are no current tracks</string>
+    <!--<string name="openMenu">Open menu</string>-->
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string name="title_activity_launch_page">Vyškovnice</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_about">Vyškovnice</string>
+
+    <!-- about vyskovnice-->
+    <string name="large_text">
+        "   <b>What is Vyškovnice App?</b>\n\n"
+        "   Great way of exploring your surroundings thought mathematically calculated set of summits between two selected locations in a boundary region. \n\n"
+
+        "<b>What does it consists of?</b> \n\n
+        • 31 main summits being the highest points of their local mountain range.\n
+        • 19 secondary summits\n
+        • 31 physical Summit Books installed on the main summits or near to them.\n"
+
+        "<b>How application works?</b>\n\n
+        "    Výškovnice is basically a set of summits. The main idea is to collect the summits with no time limit. There are game 3 levels of collecting the summits:\n\n
+            <b>• BASIC</b> - You only collect the names and passwords of the Summit Books and you automatically collect also the digital confirmation of this, under the condition that you activate the App when you arrive at the location.\n\n
+            <b>• STANDARD</b> – Often the Summit Book is not situated at the summit. You need to make some more steps to arrive physically at the main summit. When you collect the book AND the main summit, you are in the game.\n\n
+            <b>• HARD CORE</b> – Some summit groups contain also one or two secondary summits. Those who collect also all these summits shall be known as Hard Core Peak Climbers!\n\n\n"
+
+
+    </string>
+
+    <!-- sharing page -->
+
+    <string name="last_summit">Last summit:</string>
+    <string name="my_collections">My Collections:</string>
+    <string name="title_activity_sharing">Time to share !</string>
+    <string name="your_comment">Your comment : </string>
+    <string name="nolastpeak">You don\'t have any collected point. Please try to find a peak or book </string>
+
+
+    <string name="title_activity_books_and_peaks">BooksAndPeaks</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+</resources>

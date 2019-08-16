@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="horizontal"
+    style="@style/layoutsWithoutGravity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/tvRunnersNumber"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_gravity="left"
+
+        android:text="@string/number"
+        android:textSize="14sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/tvRunnersNickname"
+        android:layout_gravity="left"
+        android:layout_marginLeft="35dp"
+
+        android:text="@string/nickname"
+        android:textSize="14sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/tvRunnersCheckpoints"
+        android:layout_gravity="center_horizontal"
+
+        android:text="@string/checkpoints"
+        android:textSize="14sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/tvRunnersDateTime"
+        android:layout_gravity="right"
+
+        android:text="@string/lastReached"
+        android:textSize="14sp"/>
+</FrameLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="koplac.vyskovnice">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <provider android:authorities="com.facebook.app.FacebookContentProvider247708035715620"
+            android:name="com.facebook.FacebookContentProvider"
+            android:exported="true"/>
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.LaunchPageActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_launch_page"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".activities.PeakActivity"
+            android:label="@string/peakInfo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.Login"
+            android:label="@string/logIn"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.Profile"
+            android:parentActivityName=".MainActivity"
+            android:label="@string/profile"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.PeaksActivity"
+            android:label="@string/peaks"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.UserPeakHistoryActivity"
+            android:label="@string/myPeakHistory"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ChangePassword"
+            android:label="@string/changePassword"
+            android:screenOrientation="portrait"
+            android:parentActivityName=".activities.Profile"/>
+        <activity
+            android:name=".activities.ChangeUserName"
+            android:label="@string/changeUserName"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.Ranking"
+            android:label="@string/ranking"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.Signin"
+            android:label="@string/signIn"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.SiteReached"
+            android:label="@string/siteReached"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.ReadComments"
+            android:label="@string/commentsOfTheBook"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.WriteComment"
+            android:label="@string/leftYourComment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.UnreadBooks"
+            android:label="@string/unreadBooksPending"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.TracksActivity"
+            android:label="@string/tracks" />
+        <activity
+            android:name=".activities.CheckPointReached"
+            android:label="@string/CheckPoint" />
+        <activity
+            android:name=".activities.AboutActivity"
+            android:label="@string/title_activity_about"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activities.SharingActivity"
+            android:label="@string/title_activity_sharing"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="koplac.vyskovnice.MainActivity" />
+        </activity>
+    </application>
+
+</manifest>

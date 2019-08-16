@@ -1,0 +1,219 @@
+﻿<resources>
+
+    <!-- General -->
+    <string name="app_name">Výškovnice</string>
+    <string name="action_settings">Configuración</string>
+    <string name="peakInfo">Información del Lugar</string>
+    <string name="peaks">Lugares</string>
+    <string name="myPeakHistory">Mi historial de lugares</string>
+    <string name="siteReached">Lugar alcanzado</string>
+    <string name="commentsOfTheBook">Comentarios del libro</string>
+    <string name="leftYourComment">Deja tu comentario</string>
+    <string name="unreadBooksPending">Libros no-leídos pendientes</string>
+    <string name="sure">¿Estás seguro?</string>
+    <string name="loading">Cargando...</string>
+    <string name="notloged">¿Aún no estas registrado?</string>
+    <string name="notLogedIn">No has iniciado sesión</string>
+    <string-array name="mainMenu">
+        <item>Iniciar sesión</item>
+        <item>Rutas</item>
+        <item>Lugares</item>
+        <item>Ranking</item>
+        <item>Libros</item>
+    </string-array>
+    <string name="makeSureYouHaveInternetConnectionAndTryAgain">Asegurate de tener conexión a internet y prueba de nuevo</string>
+
+    <!-- Only for testing -->
+    <string name="reachKoplac">To reach Koplac</string>
+    <string name="reachSvobodyNamesti">To reach Svobody Namesti</string>
+    <string name="reachPetrov">To reach Petrov</string>
+    <string name="reachSpilberk">To reach Spilberk</string>
+    <string name="reachCheckPointTest1">To reach test cp 1</string>
+    <string name="reachCheckPointTest2">To reach test cp 2</string>
+    <string name="reachCheckPointTest3">To reach test cp 3</string>
+    <string name="reachCheckPointTest4">To reach test cp 4</string>
+    <string name="reachCheckPointTest5">To reach test cp 5</string>
+    <string name="reachCheckPointTest6">To reach test cp 6</string>
+    <!-- End of Only for testing -->
+
+    <!-- Map -->
+    <string name="drawRoute">Ruta</string>
+    <string name="peakDetails">Detalles</string>
+    <string name="gps_disabled">GPS deshabilitado en tu dispositivo. ¿Quieres activarlo?</string>
+    <string name="gps_settings">Configuración GPS</string>
+    <string name="gps_cancel">Cancelar</string>
+    <string name="noneTrackSelected">Ninguna ruta seleccionada</string>
+
+    <!-- Main -->
+    <string name="centerCurrentPosition">Centrar mi posicion actual</string>
+    <string name="areYouSureYouWantToExit">¿Estás seguro de que deseas salir?</string>
+    <string name="exit">Salir</string>
+
+    <!-- Log in screen -->
+    <string name="nickname">Nickname</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="notAMemberYet">¿Aún no eres miembro?</string>
+    <string name="signin">Registrarse</string>
+    <string name="logInSuccessfull">Inicio de sesión satisfactorio</string>
+    <string name="welcome">Bienvenido</string>
+    <string name="loggingUser">Iniciando sesión</string>
+    <string name="nicknameAndOrPasswordIncorrect">E-mail y/o contraseña incorrectos</string>
+
+    <!-- Sign in screen -->
+    <string name="repeatPassword">Repetir contraseña</string>
+    <string name="email">E-mail</string>
+    <string name="chooseAvatar">Elegir avatar</string>
+    <string name="uploadingAvatar">Subiendo avatar</string>
+    <string name="signingUser">Registrando usuario</string>
+    <string name="validatingEmail">Validando e-mail</string>
+    <string name="validatingNickname">Validando nickname</string>
+    <string name="fillNicknameField">Campo nickname obligatorio</string>
+    <string name="fillPasswordField">Campo contraseña obligatorio</string>
+    <string name="fillPassword2Field">Campo repetir contraseña obligatorio</string>
+    <string name="fillEmailField">Campo e-mail obligatorio</string>
+    <string name="passwordsNotMatch">Las contraseñas no coinciden</string>
+    <string name="emailNotValid">E-mail no válido</string>
+    <string name="nicknameInUse">Nickname está en uso</string>
+    <string name="emailInUse">E-mail está en uso</string>
+    <string name="signInSuccess">Registro satisfactorio</string>
+    <string name="signInFailurePleaseTryLater">Registro fallido. Inténtalo de nuevo más tarde</string>
+
+    <!-- Profile screen -->
+    <string name="profile">Perfil</string>
+    <string name="logOut">Cerrar sesión</string>
+    <string name="changeAvatar">Cambiar avatar</string>
+    <string name="changePassword">Cambiar password</string>
+    <string name="climbedPeaks">Lugares alcanzados</string>
+    <string name="avatarChangedSuccessfully">Cambio de avatar satisfactorio</string>
+    <string name="avatarChangeFailure">Cambio de avatar fallido</string>
+    <string name="areYouSureYouWantToLogOut">¿Estás seguro de que quieres cerrar sesión?</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="updatingAvatar">Actualizando avatar</string>
+    <string name="profilePictureChangeSucceed">Cambio de avatar satisfactorio</string>
+    <string name="profilePictureChangeFailure">Cambio de avatar fallido</string>
+
+    <!-- ChangePassword -->
+    <string name="updatingNewPassword">Actualizando nueva contraseña</string>
+    <string name="currentPassword">Contraseña actual</string>
+    <string name="newPassword">Nueva contraseña</string>
+    <string name="repeatNewPassword">Repetir nueva contraseña</string>
+    <string name="fillCurrentPasswordField">Campo contraseña actual obligatorio</string>
+    <string name="fillNewPasswordField">Campo nueva contraseña obligatorio</string>
+    <string name="fillNewPassword2Field">Campo repetir nueva contraseña obligatorio</string>
+    <string name="currentPasswordWrong">Contraseña actual incorrecta</string>
+    <string name="newPasswordsNotMatch">Las nuevas contraseñas no coinciden</string>
+    <string name="passwordChangeSucceed">Cambio de contraseña satisfactorio</string>
+    <string name="passwordChangeFailure">Cambio de contraseña fallido</string>
+
+    <!-- Peaks screen -->
+    <!-- Peak screen -->
+    <string name="longitude">Longitud</string>
+    <string name="latitude">Latitud</string>
+    <string name="height">Altura</string>
+    <string name="distance">Distancia</string>
+    <string name="mountains">Montañas</string>
+    <string name="region">Region</string>
+    <string name="plantsAnimals">Plantas &amp; animales</string>
+    <string name="reservation">Reservas</string>
+    <string name="geology">Geología</string>
+    <string name="springs">Nacimientos</string>
+    <string name="hydrology">Hidrología</string>
+    <string name="buildings">Construcciones</string>
+    <string name="history">Historia</string>
+    <string name="access">Accesos</string>
+    <string name="attractions">Atracciones</string>
+    <string name="views">Vistas</string>
+    <string name="links">Enlaces</string>
+    <string name="notes">Notas</string>
+
+    <!-- UserPeaksActivity -->
+    <string name="retrievingUserClimbedPeaks">obteniendo lugares alcanzados</string>
+
+    <!-- Site Reached screen -->
+    <string name="youCantSendAnEmptyComment">No puedes enviar un comentario vacío</string>
+    <string name="youHaveAlreadySentYoutComment">Ya has dejado tu comentario</string>
+    <string name="thanksForYourComment">Gracias por tu comentario</string>
+    <string name="congratulations">¡Enhorabuena!</string>
+    <string name="youHaveReached">Has alcanzado</string>
+    <string name="writeYourComment">Deja tu comentario</string>
+    <string name="readOthersComment">Leer comentarios</string>
+    <string name="bookOf">Libro de</string>
+    <string name="instructions">Instrucciones</string>
+    <string name="rateTheBookStatus">Valora el estado del libro</string>
+    <string name="onlyOneCommentPerPerson">Sólo un comentario por persona/día/viaje</string>
+    <string name="writeWhatYouWantButDontBeRude">Escribe lo que quieras pero no seas grosero</string>
+    <string name="sendRatingAndComment">Enviar evaluación y comentario</string>
+    <string name="goBackToMap">Volver al mapa</string>
+    <string name="areYouSureYouWantToContinueWithoutLeftAComment">¿Estás seguro de que quieres volver sin dejar tu comentario?</string>
+
+    <!-- Ranking screen -->
+    <string name="ranking">Ranking</string>
+    <string name="mostproficients">Most Proficient climbers</string>
+    <string name="mostclimbed">Most climbed peaks</string>
+    <string name="topBestClimbers">Top Mejores usuarios</string>
+    <string name="topClimbedPeaks">Top Lugares alcanzados</string>
+    <string name="timesReached">Veces alcanzado</string>
+    <string name="peaksReached">Lugares alcanzados</string>
+    <string name="retrievingTopClimbers">obteniendo mejores usuarios</string>
+    <string name="retrievingTopReachedPeaks">obteniendo lugares más alcanzados</string>
+
+    <string name="topBestRunners">Top Mejores corredores</string>
+    <string name="checkpoints">Puntos de control</string>
+    <string name="lastReached">Último alcanzado</string>
+    <string name="brnoStandard">Brno Bajo</string>
+    <string name="brnoMedium">Brno Medio</string>
+    <string name="brnoHigh">Brno Alto</string>
+    <string name="retrievingTopRunnersBrnoStandard">Obteniendo TOP Corredores de Brno bajo</string>
+    <string name="retrievingTopRunnersBrnoMedium">Obteniendo TOP Corredores de Brno medio</string>
+    <string name="retrievingTopRunnersBrnoHigh">Obteniendo TOP Corredores de Brno alto</string>
+
+    <!-- Books screen -->
+    <string name="books">Libros</string>
+    <string name="noUnreadBooksPending">No tienes libros no-leídos pendientes</string>
+
+    <!-- Read Comments screen -->
+    <string name="retrievingComments">obteniendo comentarios</string>
+
+    <!-- Tracks -->
+    <string name="tracks">Rutas</string>
+
+    <!-- CheckpointReached -->
+    <string name="youHaveReachedACheckPoint">Has alcanzado un punto de control</string>
+    <string name="trackName">Nombre de la Ruta</string>
+    <string name="waitForCheckIn">Chequeando punto de control</string>
+    <string name="checkInSucceed">Chequeo satisfactorio</string>
+    <string name="checkInFailure">Chequeo fallido</string>
+    <string name="exitWithoutCheckIn">Salir sin chequear checkpoint</string>
+    <string name="areYouSureYouWantToContinueWithoutCheckInThisPoint">¿Estás seguro de que deseas continuar sin chequear este punto de control?</string>
+    <string name="internetConnectionNeededIfYouWantToRecordCheckpointsTracks">Necesitas conexión a internet si quieres chequear puntos de control de rutas</string>
+    <!-- GoalReached -->
+    <string name="completed">¿COMPLETADO!</string>
+    <string name="youHaveReachedTheGoal">Has llegado a la línea de meta</string>
+
+    <!-- Dont know where it is used -->
+    <string name="accept">Aceptar</string>
+    <string name="menu">Menú</string>
+    <string name="logIn">Iniciar sesión</string>
+    <string name="signIn">Registrarse</string>
+    <string name="peakName">Nombre del Lugar</string>
+    <string name="nameOfThePeak">Nombre del Lugar</string>
+    <string name="mainMenu">Menú principal</string>
+    <string name="peakPicture">Imagen del Lugar</string>
+    <string name="number">Nº</string>
+    <string name="date">Fecha</string>
+    <string name="commentContent">Contenido del comentario</string>
+    <string name="noInternet">Sin conexión a internet</string>
+    <string name="pointOnMap">Señalar en el mapa</string>
+    <string name="reachedTimes">Veces alcanzado</string>
+    <string name="proceed">Proceder</string>
+    <string name="back">Volver</string>
+    <string name="chooseroute">Elegir ruta</string>
+    <string name="areYouSureYouWantToChooseThisRoute">¿Estás seguro de que deseas elegir ésta ruta?</string>
+    <string name="eraseTrack">Deseleccionar ruta</string>
+    <string name="eraseRoute">Borrar ruta</string>
+    <string name="CheckPoint">Punto de control</string>
+    <string name="noCurrentTracks">No hay rutas por el momento</string>
+
+</resources>

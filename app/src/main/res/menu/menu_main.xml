@@ -1,0 +1,80 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/maCenterCurrentPosition"
+        android:title="@string/centerCurrentPosition"
+        app:showAsAction="never" />
+    <!--<item
+        android:id="@+id/maOpenLateralMenu"
+        android:title="@string/openMenu"
+        app:showAsAction="never" />-->
+    <item
+        android:id="@+id/maEraseTrack"
+        android:title="@string/eraseTrack"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/maEraseRoute"
+        android:title="@string/eraseRoute"
+        app:showAsAction="never" />
+    <!--<item
+        android:id="@+id/maCP1"
+        android:title="@string/reachCheckPointTest1"
+        android:orderInCategory="2"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/maCP2"
+        android:title="@string/reachCheckPointTest2"
+        android:orderInCategory="2"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/maCP3"
+        android:title="@string/reachCheckPointTest3"
+        android:orderInCategory="2"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/maCP4"
+        android:title="@string/reachCheckPointTest4"
+        android:orderInCategory="2"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/maCP5"
+        android:title="@string/reachCheckPointTest5"
+        android:orderInCategory="2"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/maCP6"
+        android:title="@string/reachCheckPointTest6"
+        android:orderInCategory="2"
+        app:showAsAction="never" />-->
+    <!--<item
+        android:id="@+id/maReach3"
+        android:title="@string/reachSpilberk"
+        android:orderInCategory="2"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/maReach2"
+        android:title="@string/reachPetrov"
+        android:orderInCategory="2"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/maReach1"
+        android:title="@string/reachSvobodyNamesti"
+        android:orderInCategory="2"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/maReach0"
+        android:title="@string/reachKoplac"
+        android:orderInCategory="3"
+        app:showAsAction="never" />
+        -->
+    <!--
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    -->
+</menu>

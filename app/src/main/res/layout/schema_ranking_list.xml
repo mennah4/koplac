@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="horizontal"
+    style="@style/layoutsWithoutGravity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/tvRankingNumber"
+        android:layout_gravity="left"
+
+        android:text="@string/number"
+        android:textSize="14sp"
+        android:textColor="#FFFFFFFF"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/tvRankingLeft"
+        android:layout_gravity="left"
+        android:layout_marginLeft="35dp"
+
+        android:text="@string/nickname"
+        android:textSize="14sp"
+        android:textColor="#FFFFFFFF"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/tvRankingRight"
+        android:layout_gravity="right"
+
+        android:text="@string/timesReached"
+        android:textSize="14sp"
+        android:textColor="#FFFFFFFF"/>
+
+</FrameLayout>

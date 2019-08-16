@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".CheckPointReached"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    style="@style/layoutsWithoutGravity"
+    android:background="@drawable/goalflag">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="start"
+        android:orientation="vertical"
+        android:background="#88000000">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/congratulations"
+            android:gravity="center_horizontal"
+
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#ffcc0f0b"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/youHaveReachedTheGoal"
+            android:gravity="center_horizontal"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:textColor="#ffcc0f0b"
+            android:background="#88000000"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+
+        android:orientation="vertical"
+        android:background="#88000000">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/tvCheckPointIdCount"
+            android:gravity="center_horizontal"
+
+            android:text="@string/completed"
+            android:textStyle="bold"
+            android:textSize="55sp"
+            android:textColor="#ffcc0f0b"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/tvTrackName"
+            android:gravity="center_horizontal"
+
+            android:text="@string/trackName"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textColor="#ffcc0f0b"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/btnAccept"
+        android:layout_gravity="bottom"
+        android:paddingTop="5dp"
+        android:onClick="accept"
+        android:layout_marginRight="5dp"
+        android:layout_weight="1"
+
+        android:text="@string/accept"
+        style="@style/buttons"/>
+
+</FrameLayout>

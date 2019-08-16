@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="koplac.vyskovnice.activities.Profile"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    style="@style/layouts">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/textname"
+            android:onClick="changeUserName"
+
+
+            android:drawableLeft="@drawable/ic_user"
+            style="@style/editTexts"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/textemail"
+
+            android:drawableLeft="@drawable/ic_email"
+            style="@style/editTexts"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+
+                android:id="@+id/photo"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+
+                android:src="@drawable/ic_no_photo"
+                android:background="#ff1aa187"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/btnChangePassword"
+                android:onClick="changePassword"
+                android:layout_toRightOf="@+id/photo"
+                android:layout_gravity="center_vertical|right"
+
+                android:text="@string/changePassword"
+                style="@style/buttonPurple"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/btnChangeProfilePicture"
+                android:onClick="changeAvatar"
+                android:layout_toRightOf="@+id/photo"
+                android:layout_below="@+id/btnChangePassword"
+                android:layout_gravity="center_vertical|right"
+
+                android:text="@string/changeAvatar"
+                style="@style/buttonClaretRed"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/btnClimbedPeaks"
+                android:onClick="climbedPeaks"
+                android:layout_toRightOf="@+id/photo"
+                android:layout_below="@+id/btnChangeProfilePicture"
+                android:layout_gravity="center_vertical|right"
+
+                android:text="@string/climbedPeaks"
+                style="@style/buttonOrange"/>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+
+            style="@style/separators"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/btnProfileLogOut"
+            android:onClick="logout"
+            android:layout_gravity="right"
+
+            android:text="@string/logOut"
+            style="@style/buttonRED"/>
+
+    </LinearLayout>
+
+</ScrollView>

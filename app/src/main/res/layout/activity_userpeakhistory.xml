@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="koplac.vyskovnice.activities.Login"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/layouts">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/tvUserPeakName"
+
+            style="@style/textViews"
+            android:text="@string/peakName"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+
+        <ImageView
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+
+            android:id="@+id/ivUserPeakPicture"
+            android:layout_below="@id/tvUserPeakName"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/ic_no_photo"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/lyUserPeakRight"
+            android:layout_below="@+id/tvUserPeakName"
+            android:layout_toRightOf="@+id/ivUserPeakPicture"
+            android:orientation="horizontal"
+            android:background="#FF1aa187"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:padding="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+
+                    android:text="@string/reachedTimes"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:id="@+id/tvTimesReached"
+                    android:layout_weight="1"
+                    android:gravity="right"
+
+                    android:text="123"/>
+
+        </LinearLayout>
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:id="@+id/lvUserPeakHistory"
+            android:layout_below="@id/lyUserPeakRight"
+            android:layout_toRightOf="@+id/ivUserPeakPicture"
+            android:layout_marginTop="5dp"
+
+            android:background="#FF1aa187"/>
+
+    </RelativeLayout>
+</LinearLayout>

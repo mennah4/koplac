@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="koplac.vyskovnice.activities.Signin"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    style="@style/layouts">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/edit_user"
+
+                android:drawableLeft="@drawable/ic_user"
+                android:inputType="text"
+                android:hint="@string/nickname"
+                style="@style/editTexts"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/editpassword"
+
+                android:drawableLeft="@drawable/ic_pass"
+                android:inputType="textPassword"
+                android:hint="@string/password"
+                style="@style/editTexts"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/editpassword2"
+
+                android:drawableLeft="@drawable/ic_pass"
+                android:inputType="textPassword"
+                android:hint="@string/repeatPassword"
+                style="@style/editTexts"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/editemail"
+
+                android:drawableLeft="@drawable/ic_email"
+                android:inputType="textEmailAddress"
+                android:hint="@string/email"
+                style="@style/editTexts"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+
+                android:id="@+id/photo"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+
+                android:src="@drawable/ic_no_photo"
+                android:background="#ff1aa187"/>
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/btnSelectAvatar"
+                android:onClick="pickphoto"
+                android:layout_toRightOf="@+id/photo"
+                android:layout_gravity="center_vertical|right"
+
+                android:text="@string/changeAvatar"
+                style="@style/buttons"/>
+            </RelativeLayout>
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/btnSigninSignin"
+                android:onClick="accept"
+                android:layout_gravity="right"
+
+                android:text="@string/signIn"
+                style="@style/buttons"/>
+
+        </LinearLayout>
+    </FrameLayout>
+</ScrollView>

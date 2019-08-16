@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="koplac.vyskovnice.activities.SiteReached"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    style="@style/layoutsWithoutGravity"
+    android:background="@drawable/arrival">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/lyFirst"
+        android:layout_gravity="start"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/congratulations"
+            android:gravity="center_horizontal"
+
+            android:textSize="30sp"
+            android:textColor="#FFFFFFFF"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="@string/youHaveReached"
+            android:gravity="center_horizontal"
+            android:textSize="16sp"
+            android:textColor="#FFFFFFFF"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/lySecond"
+        android:layout_gravity="center"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/peakreached"
+            android:gravity="center_horizontal"
+
+            android:text="@string/peakName"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:textColor="#FFFFFFFF"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+
+            android:id="@+id/ivReachedPeakPicture"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+
+            android:src="@drawable/ic_no_photo"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/lyThird"
+        android:layout_gravity="bottom"
+        android:paddingTop="5dp"
+
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/writecomments"
+            android:onClick="writeComment"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+
+            android:text="@string/writeYourComment"
+            style="@style/buttons"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/readcomments"
+            android:onClick="readComments"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+
+            android:text="@string/readOthersComment"
+            style="@style/buttons"/>
+
+    </LinearLayout>
+
+</FrameLayout>
